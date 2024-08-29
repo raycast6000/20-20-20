@@ -6,8 +6,6 @@ use std::{
 };
 
 fn main() {
-    println!("The 20-20-20 rule reminder is on.");
-
     loop {
         thread::sleep(Duration::from_mins(20));
 
