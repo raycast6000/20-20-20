@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 #![feature(duration_constructors)]
 use notify_rust::Notification;
 use std::{
